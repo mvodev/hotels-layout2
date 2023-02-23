@@ -1,0 +1,55 @@
+.icons {
+  width: 99px;
+  height: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex: 0 0 91px;
+
+  .icon {
+    cursor: pointer;
+
+    &__like-counter {
+      position: absolute;
+      font-family: 'Roboto';
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 9px;
+      letter-spacing: 0em;
+      text-align: center;
+      right: 5px;
+      top: -4px;
+    }
+
+    &_loupe_icon {
+      width: 16px;
+      height: 16px;
+      background-image: url('../../assets/images/loupe.svg');
+    }
+
+    &_heart_icon {
+      position: relative;
+      width: 21px;
+      height: 18px;
+      background-image: url('../../assets/images/heart.svg');
+    }
+    &_heart_icon::before {
+      position: absolute;
+      right: 0;
+      top: -6px;
+      content: '';
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background-color: #E6C8B4;
+    }
+
+    &_cart_icon {
+      width: 18px;
+      height: 16px;
+      background-image: url('../../assets/images/cart.svg');
+    }
+  }
+
+}

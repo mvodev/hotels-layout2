@@ -1,0 +1,35 @@
+.logo {
+  font-family: 'Playfair';
+  font-size: 0.86rem;
+  font-weight: 400;
+  line-height: 1.14rem;
+  letter-spacing: 0.14em;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  
+  &__text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &_black {
+    color:#555248;
+    .logo__img {
+      background-image: url('../../assets/images/logo.svg');
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &_white {
+    color: #FFFFFF;
+    .logo__img {
+      background-image: url('../../assets/images/logo-black.svg');
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+}

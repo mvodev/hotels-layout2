@@ -1,0 +1,18 @@
+.button {
+  width: 205px;
+  height: 64px;
+  color: #FFFFFF;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 0.86rem;
+  cursor: pointer;
+
+  &_brown {
+    background: #444240;
+  }
+
+  &_pink {
+    background: #D4B098;
+  }
+
+}

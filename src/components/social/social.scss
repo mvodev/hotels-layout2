@@ -1,0 +1,10 @@
+.social {
+  width: 93px;
+  height: 23px;
+  &__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

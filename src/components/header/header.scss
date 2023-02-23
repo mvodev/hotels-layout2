@@ -1,0 +1,61 @@
+.header {
+  min-height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #555248;
+  width: 100%;
+  align-items: center;
+  padding: 10px 0;
+
+  &__nav-list {
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    font-family: 'Roboto';
+  }
+
+  &__icons {
+    width: 99px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 0 0 91px;
+  }
+
+  &_icon_loupe_icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/images/loupe.svg');
+  }
+
+  &_icon_heart_icon {
+    width: 21px;
+    height: 18px;
+    background-image: url('../../assets/images/heart.svg');
+  }
+
+  &_icon_cart_icon {
+    width: 18px;
+    height: 16px;
+    background-image: url('../../assets/images/cart.svg');
+  }
+
+}
+
+@media (max-width:900px) {
+  .header {
+    &__nav-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+
+@media (max-width:570px) {
+  .header {
+    padding: 10px;
+  }
+}
