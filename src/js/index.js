@@ -1,5 +1,5 @@
 import '../components';
-import './swiper-bundle.esm.browser';
+import { Swiper } from '../components/swiper/swiper';
 
 const pagePagination = document.querySelector('.js-slider-pagination');
 
